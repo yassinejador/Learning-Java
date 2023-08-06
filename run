@@ -1,0 +1,3 @@
+#!/bin/bash
+javac -d "./CompiledClasses" $1
+java -cp "./CompiledClasses" $(basename "$1" .java)
