@@ -6,11 +6,11 @@ public class Printf {
 		//				two arguments = format string + (object/variable/value)
 		//				% [flags] [precision] [width] [conversion-character]
 				
-		boolean myBoolean = true;
-		char myChar = '@';
-		String myString = "Bro";
-		int myInt = 50;
-		double myDouble = 1000;
+		// boolean myBoolean = true;
+		// char myChar = '@';
+		// String myString = "Bro";
+		double myInt = 2000000000;
+		// double myDouble = 1000;
 			
 		// [conversion-character]
 		//System.out.printf("%b",myBoolean);
@@ -34,6 +34,8 @@ public class Printf {
 		// 0 : numeric values are zero-padded
 		// , : comma grouping separator if numbers > 1000
 		
-		//System.out.printf("You have this much money %,f",myDouble);
+		// problem : System.out.printf("You have this much money %,f",myInt);
+
+
 	}
 }
