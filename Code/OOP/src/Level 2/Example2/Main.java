@@ -25,6 +25,11 @@ public class Main {
             System.out.print("this is sound of cat :");
             cat.sound();
         }
+
+        
     }
 
 }
+
+//  possible qu'une classe interne ne possède pas de nom  ?
+//https://koor.fr/Test.wp

@@ -13,5 +13,4 @@ public class Dog extends Animal implements AnimalSound,SomeThingElse{
     public void move() {
         System.out.println("moving");
     }
-
 }
