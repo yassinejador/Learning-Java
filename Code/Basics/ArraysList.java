@@ -10,7 +10,7 @@ public class ArraysList {
         lists.add("hamburger");
 
         food.add(lists);
-        
+
         lists.set(0,"sushi");
         lists.remove(1);
 
@@ -24,8 +24,8 @@ public class ArraysList {
                 System.out.println(food.get(i).get(j));
             }
         }
-        
-        //For Each Loop : 
+
+        //For Each Loop :
         for (String k:lists) {
             System.out.print(k);
         }

@@ -33,3 +33,4 @@ public class Main {
 
 //  possible qu'une classe interne ne possède pas de nom  ?
 //https://koor.fr/Test.wp
+//A quoi sert la méthode finalize() ?
