@@ -1,7 +1,6 @@
 #!/bin/bash
-javac $1."java"
 if [ ! -d "CompiledClasses" ];then
     mkdir CompiledClasses
 fi
-mv $1."class" ./CompiledClasses
+javac -d "CompiledClasses" $1."java"
 java -cp CompiledClasses $1
