@@ -21,4 +21,5 @@ public class Die {
     public boolean testFace(int visibleFaces) {
         return !(visibleFaces==0 || visibleFaces > 6);
     }
+    //
 }
